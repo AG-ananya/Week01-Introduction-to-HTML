@@ -1,0 +1,12 @@
+#heading{
+    color: red;
+}
+p{
+    color:blueviolet;
+    background-color:cornsilk;
+    font-style: italic;
+    padding-left: 30px;
+    margin-top: 10px;
+    padding-right: 30px
+    ;
+}
