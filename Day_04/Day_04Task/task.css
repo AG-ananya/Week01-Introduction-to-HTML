@@ -1,0 +1,22 @@
+.box{
+   color: black; 
+}
+.Box{
+    display: flex;
+    flex-direction: column;
+}
+#head{
+    text-transform: capitalize;
+    color: brown;
+    
+}
+main{
+    flex: 1;
+    display: flex;
+    font-size: larger;
+    text-transform: capitalize;
+}
+.foot{
+    text-transform: capitalize;
+    font-size: larger;
+}
