@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            height: 70px;
+            width: 70px;
+            border: 2px solid black;
+            background-color: plum;
+            position: relative;
+            top: 10px;
+            left: 10px;
+           animation-name: rotating ;
+            animation-duration: 2s;
+            animation-timing-function:  ease-in-out;
+            animation-delay:  1sec;
+            animation-iteration-count:infinite ;
+            animation-direction: alternate ;
+            margin: 20px;
+        }
+        #a{
+            animation-name:calc();
+        }
+            @keyframes identifier {
+                0%{
+                    left: 10px;
+                    top: 0px;
+                }
+                50%{
+                    left: 50px;
+                    top: 100px;
+                }
+                100%{
+                    left: 200px;
+                    top: 0px;
+                }
+            }
+        @keyframes rotating{
+            from{
+                left: 10px;
+            }
+            to{
+                left: 200px;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="box">Box</div>
+    <div id="a" class="box">Box2</div>
+</body>
+</html>

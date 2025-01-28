@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: bisque;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background: #004d7a;
+  padding: 60px 0;
+  text-align: center;
+  color: white;
+}
+
+.initial {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  animation: fadeIn 2s ease-out;
+}
+
+.initial p {
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-top: 10px;
+  animation: fadeIn 3s ease-out;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 40px 20px;
+}
+
+.contain{
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+  margin: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+  animation: borderAnimation 3s linear infinite
+}
+
+.contain:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.interactive{
+  background: #f0f0f0;
+  padding: 40px 20px;
+  text-align: center;
+}
+.heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  animation: fadeIn 2s ease-out;
+}
+
+.description {
+  font-size: 1.2rem;
+  color: #333;
+  animation: fadeIn 3s ease-out;
+}
+footer {
+  background-color: #004d7a;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 1rem;
+}
+@media (max-width: 768px) {
+  .fighter{
+    width: 100%;
+    margin: 20px 0;
+  }
+}

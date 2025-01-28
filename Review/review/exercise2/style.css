@@ -1,0 +1,25 @@
+body{
+    background-color: antiquewhite;
+}
+p{
+    color: rgb(86, 2, 2);
+    font-size: large;
+    font-style:oblique;
+    font-family: 'Courier New', Courier, monospace;
+    height: 100px;
+}
+.para1{
+    background-color: yellowgreen;
+}
+.para2{
+background-color: aqua;
+}
+.para3{
+background-color: aquamarine;
+}
+.para4{
+background-color: azure;
+}
+.para5{
+background-color: blueviolet;
+}
